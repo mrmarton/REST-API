@@ -1,0 +1,19 @@
+{
+  "development": {
+    "storage": "fsjstd-restapi.db",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "operatorsAliases": false
+  },
+  "test": {
+    "database": "fsjstd-restapi.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "operatorsAliases": false
+  },
+  "production": {
+    "database": "fsjstd-restapi.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite"
+  }
+}
